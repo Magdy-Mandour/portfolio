@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    }
+/* end body */
+
+/* general */
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+    }
+hr{
+    width: 90%;
+    align-self: center;
+    margin: 0 auto;
+}
+/* end general */
+
+/* top-banner */
+/* banner container */
+.top-banner .container{
+    display: grid;
+    grid-template-columns: 10% auto 5%;
+    grid-template-rows: 1fr;
+}
+/* end banner container */
+
+/* logo */
+.logo_link{
+    font-weight: bold;
+}
+/* end logo */
+
+/* navigation bar */
+.nav-bar{
+
+    border-radius: 10%;
+    padding-top: 10px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.nav-bar li a {
+    background-color: #6A0202;
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight:500;
+}
+/* end navigation bar */
+/* end top-banner */
+
+/* mott section */
+.motto_header{
+    text-align: center;
+}
+/* end motto section */
+
+/* card */
+.card{
+    height: 700px;
+}
+.card .container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+    @media screen and max-width 400px {
+        display: flex;
+        flex-wrap: flex-wrap;
+    }
+}
+.card .container .intro{
+    width: 50%;
+    padding: 10px;
+    line-height: 1.5;
+    height: 100%;
+}
+.card .container .picture{
+    width: 50%;
+    height: 100%;
+}
+.card .container .picture img{
+    width: 100%;
+    height: 100%;
+}
+/* end card */
+
+/* tech-intro */
+
+/* end tech-intro */
+
+/* tool box */
+.tool-box .container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: no-wrap;
+}
+.tool-box .container .tech-icons img{
+    width:100%;
+}
+/* end tool box */
+
+/* projects */
+.project{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.projec-screen-shot img{
+    width: 100%;
+}
+/* end projects */
+
+/* footer */
+.footer .container{
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.footer-icons .fab{
+    padding: 10px;
+}
+.bottom-nav li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* end footer */
+
+/* questions */
+/* 1- How to make the dark mode icon away from the nav bar?
+   2- How to make the word home exactly in the middle of the brown bar?
+   3- How to make gaps between the links in the navigation bar? 
+   4- the image height and size?
+   5- pictures in the projects sections not he same size?
+ */
+/* end questions */
