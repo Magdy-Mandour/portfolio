@@ -65,7 +65,7 @@ hr{
     background-color: black;
 }
 .nav-bar li a {
-    background-color: #6A0202;
+    background-color: #8b4513;
     padding-right: 85px;
     padding-left: 85px;
     padding-top: 10px;
@@ -83,32 +83,33 @@ hr{
 /* end motto section */
 
 /* card */
-.card{
+/* .card{
     height: 700px;
-}
+} */
 .card .container{
     display: flex;
     justify-content: space-evenly;
-    height: 100%;
     gap: 20px;
-    @media screen and max-width 400px {
-        display: flex;
-        flex-wrap: flex-wrap;
-    }
+    flex-wrap: nowrap;
+    height: 50%;
 }
 .card .container .intro{
-    width: 50%;
-    padding: 10px;
+    width: 70%;
+    padding: 5px;
     line-height: 1.5;
-    height: 100%;
-}
-.card .container .picture{
-    width: 50%;
-    height: 100%;
 }
 .card .container .picture img{
     width: 100%;
     height: 100%;
+
+}  
+.card .container .picture img{
+    width: 100%;
+    /* height: 10%; */
+} 
+.promotion .container h3{
+    padding-left: -5%;
+    margin-left: -5%;
 }
 /* end card */
 
@@ -133,8 +134,13 @@ hr{
     gap: 10px;
     padding: 20px;
 }
-.projec-screen-shot img{
+.project-screen-shot img{
     width: 100%;
+}
+
+.view-more-button{
+    text-align: center;
+    padding: 20px;
 }
 /* end projects */
 
@@ -152,10 +158,73 @@ hr{
 }
 .bottom-nav li{
     display: inline-flex;
-    padding: 5px;
+    padding: 10px;
+}
+.copy-right{
+    padding: 10px;
 }
 
 /* end footer */
+
+/* media query  */
+@media only screen and (max-width: 410px) {
+    body {
+      width: 100%;
+      height:  100vh;
+      margin: 0 auto;
+    }
+    .card .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .card .intro{
+        width: 100%;
+        /* height: 10%; */
+        flex-grow: 1;
+    }
+    .card .picture{
+        width: 100%;
+        flex-grow: 1;
+    }
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .top-banner{
+        display: flex;
+    }
+    .top-banner .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        display: none;
+    }
+    .dar-mode{
+        position: relative;
+        bottom: 90%;
+        left: 50%;
+    }
+    .logo-changing-to-motto {
+        position: relative;
+        bottom: 70%;
+        right: 50%;
+    }
+    .footer .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottom-nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+  }
+/* end media query  */
 
 /* questions */
 /* 1- How to make the dark mode icon away from the nav bar?
