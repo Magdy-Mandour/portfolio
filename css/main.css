@@ -142,6 +142,9 @@ hr{
     text-align: center;
     padding: 20px;
 }
+#more {
+    display: none;
+}
 /* end projects */
 
 /* footer */
