@@ -66,12 +66,13 @@ hr{
 }
 .nav-bar li a {
     background-color: #8b4513;
-    padding-right: 85px;
-    padding-left: 85px;
+    padding-right: 65px;
+    padding-left: 65px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
     font-weight:500;
+    gap: 10px;
 }
 /* end navigation bar */
 /* end top-banner */
@@ -110,6 +111,12 @@ hr{
 .promotion .container h3{
     padding-left: -5%;
     margin-left: -5%;
+}
+.hire-me {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 20px;
 }
 /* end card */
 
