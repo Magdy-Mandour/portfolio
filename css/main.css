@@ -76,6 +76,9 @@ hr{
     font-weight:500;
     gap: 10px;
 }
+.fas{
+    display: none !important;
+}
 /* end navigation bar */
 /* end top-banner */
 
@@ -231,6 +234,10 @@ hr{
         position: relative;
         bottom: 70%;
         right: 50%;
+    }
+    .fas {
+        display: block !important;
+        cursor: pointer;
     }
     .footer .container{
         display: flex;
