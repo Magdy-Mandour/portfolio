@@ -148,6 +148,9 @@ hr{
 .view-more-button{
     text-align: center;
     padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    margin-top: 20px;
 }
 #more {
     display: none;
