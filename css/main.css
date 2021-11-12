@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* body */
 body {
     background: #000000;
@@ -145,9 +147,11 @@ hr{
     width: 100%;
 }
 
-.view-more-button{
+.view-more-button {
     text-align: center;
-    padding: 20px;
+}
+.view-more-btn{
+    padding: 10px;
     background-color: blueviolet;
     border-radius: 10%;
     margin-top: 20px;
