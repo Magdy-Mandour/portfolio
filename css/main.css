@@ -133,10 +133,11 @@ hr{
 .tool-box .container {
     display: flex;
     justify-content:center;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
 }
 .tool-box .container .tech-icons img{
     width:100%;
+
 }
 /* end tool box */
 
@@ -161,6 +162,14 @@ hr{
 }
 #more {
     display: none;
+}
+.projects hr{
+    width: 15%;
+    margin-bottom: 20px;
+}
+.projects h2{
+    margin-bottom: 20px;
+    padding: 0px;
 }
 /* end projects */
 
