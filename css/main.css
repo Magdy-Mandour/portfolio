@@ -60,11 +60,18 @@ hr{
 
     border-radius: 10%;
     padding-top: 10px;
+    margin-right: 0;
 }
 .nav-bar ul{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    float: right;
+    gap: 20px;
+    margin-right: 0;
+}
+.nav-bar ul li{
+    margin-right: 0;
 }
 .nav-bar li a {
     background-color: #8b4513;
@@ -75,6 +82,7 @@ hr{
     border-radius: 10px;
     font-weight:500;
     gap: 10px;
+    margin-right: 0;
 }
 .fas{
     display: none !important;
