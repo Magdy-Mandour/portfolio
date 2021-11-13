@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(111deg, #052023, #313232, #7e8787);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 42%;
+  }
+  50% {
+    background-position: 100% 59%;
+  }
+  100% {
+    background-position: 0% 42%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 42%;
+  }
+  50% {
+    background-position: 100% 59%;
+  }
+  100% {
+    background-position: 0% 42%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 42%;
+  }
+  50% {
+    background-position: 100% 59%;
+  }
+  100% {
+    background-position: 0% 42%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 42%;
+  }
+  50% {
+    background-position: 100% 59%;
+  }
+  100% {
+    background-position: 0% 42%;
+  }
+}
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.heading:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #ffffff;
+  border-radius: 15px;
+  width: 80px;
+  margin: 10px auto;
+}
+.contact_form {
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #222;
+  box-shadow: 5px 5px 30px #6a767f;
+}
+label {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ddd;
+}
+input,
+textarea {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  margin: 5px 0px 10px 0px;
+  border: none;
+  border-bottom: 2px solid #797979;
+}
+input:focus,
+textarea:focus {
+  background-color: transparent;
+  outline: none;
+}
+.btn {
+  padding-top: 20px;
+  text-align: center;
+}
+.button {
+  background: linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+  background-color: #637aad;
+  border: 1px solid #314179;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+  background-color: #5972a7;
+}
+@media screen and (max-width: 768px) {
+  .contact_form {
+    width: 80%;
+  }
+}

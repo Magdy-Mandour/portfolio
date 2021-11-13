@@ -193,6 +193,9 @@ hr{
 .footer-icons .fab{
     padding: 10px;
 }
+.footer-icons .fa{
+    padding: 10px;
+}
 .bottom-nav li{
     display: inline-flex;
     padding: 10px;
